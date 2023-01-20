@@ -23,7 +23,6 @@ Include your code here
 
 ## OUTPUT
 
-Include the screenshot of your admin page.
-
+![image](https://user-images.githubusercontent.com/118262199/213628590-9326f926-64c8-42a7-aa1b-93175a02bab9.png)
 
 ## RESULT
