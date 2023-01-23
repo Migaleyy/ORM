@@ -20,10 +20,10 @@ Enter the code for admin.py and model.py
 execute django admin and create 10 employees
 
 ## PROGRAM
-
+~~~
 model.py
 
-from django.db import models/n
+from django.db import models
 from django.contrib import admin
 class Employee (models.Model):
     eid=models.CharField(max_length=20,help_text="Employee ID")
@@ -41,8 +41,8 @@ from django.contrib import admin
 from .models import Employee,EmployeeAdmin
 admin.site.register(Employee,EmployeeAdmin)
 *
-
-## OUTPUT
+~~~
+### OUTPUT
 
 ![Screenshot 2023-01-20 113439](https://user-images.githubusercontent.com/118262199/213993192-535c1259-ce52-4237-a2d0-04b66347b01f.png)
 
