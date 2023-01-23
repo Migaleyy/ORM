@@ -23,7 +23,7 @@ execute django admin and create 10 employees
 
 model.py
 
-from django.db import models
+from django.db import models/n
 from django.contrib import admin
 class Employee (models.Model):
     eid=models.CharField(max_length=20,help_text="Employee ID")
